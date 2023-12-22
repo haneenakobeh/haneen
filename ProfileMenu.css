@@ -1,0 +1,206 @@
+.body{
+  margin:0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 50px;
+  margin-bottom: 2000px;
+  margin-right: 800px;
+  position: relative;
+
+}
+
+
+
+.profile-menu {
+    display: grid;
+    grid-area: menu;
+    grid-template-columns: 18vw ;
+    gap:2rem;
+    height:auto;
+    top: var(--stk-top-left);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin: bottom 100px;
+    margin-right: 100px ;
+  }
+  
+  .cover-photo {
+    margin-top: 0;
+    width: 100%;
+    height:60px;
+    background-color: #676f74;
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat; 
+  }
+
+
+  .profilePhoto {
+    width: 70px;
+    height: 70px;
+
+    background-color: #033719; 
+    margin-bottom: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    object-fit: cover;
+  }
+
+
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px; 
+  }
+  
+  .username{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+  }
+
+  .eStatus{
+    text-align: center;
+    font-size: small;
+    margin: 10px;
+  }
+  .bio {
+    text-align: center;
+    margin: 20px;
+    font-size: small;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5px;
+    border-bottom: 1px solid  rgb(185, 192, 194);
+    padding:10px;
+  }
+  
+  .stat1 {
+    font-weight: bold;
+    margin:5px;
+    border-right: 1px solid   rgb(185, 192, 194);
+    padding-right:20px ;
+    padding-left: 20px;
+    font-size:small ;
+    text-align: center;
+    color:  rgb(185, 192, 194);
+  }
+  
+  .stat2 {
+    font-weight: bold;
+    margin:5px;
+    border-right: 1px solid  rgb(185, 192, 194);
+    padding-right:20px ;
+    font-size: small;
+    color:  rgb(185, 192, 194);
+  }
+  .stat3 {
+    font-weight: bold;
+    margin:5px;
+    font-size: small;
+    color:  rgb(185, 192, 194);
+  }
+  
+  .count { 
+    text-align: center;
+    color:  rgb(0, 0, 0);
+  }
+
+
+
+  .buttons {
+  border: none;
+  font-size: medium;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  flex-direction: column;
+  margin-top: 15px;
+  align-items:flex-start;
+  width: 100%;
+  }
+  
+  .button {
+    width:100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+    
+  
+  .button:hover {
+    color: #3087ca; /* Change this color as desired */ 
+  }
+  
+  
+  .viewProfile{
+  
+  cursor: pointer;
+  display:inherit;
+  border: 1px solid rgb(185, 192, 194);
+  align-items: center;
+
+  }
+
+  .buttonn{
+
+    font-size: small;
+    color:#3498db;
+    align-items:center;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .buttonn:hover{
+color: #3087ca;
+
+  }
+
+  .more{
+list-style: none;
+padding: 0;
+margin: 15px;
+display:flex;
+flex-wrap: wrap;
+justify-content:space-between;
+
+  }
+
+.access{
+  width:calc(33.3333% - 10px);
+margin-bottom: 10px;
+}
+
+.accessButton{
+  text-decoration: none;
+  color :#9ca4a7;
+  transition: color 0.3s;
+  justify-content: center;
+  }
+  
+  .accessButton:hover{
+  color: #2960d8; 
+  }
